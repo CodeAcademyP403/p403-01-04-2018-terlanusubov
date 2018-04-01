@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form-group">
+            <label for="number1">First number:</label>
+            <input type="number" class="form-control" id="number1" placeholder="Birinci reqemi daxil edin">
+        </div>
+        <div class="form-group">
+            <label for="number2">Second number:</label>
+            <input type="number" class="form-control" id="number2" placeholder="Ikinci reqemi daxil edin">
+        </div>
+        <div class="form-group">
+            <label for="operation">Select Operation:</label>
+            <select class="form-control" id="operation">
+                <option value="">Select operation...</option>
+                <option value="add">Add</option>
+                <option value="subtract">Subtract</option>
+                <option value="multiply">Multiply</option>
+                <option value="divide">Divide</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="result">Result:</label>
+            <input type="text" class="form-control" id="result">
+        </div>
+
+        <button type="submit" id="submit" class="btn btn-primary btn-lg">Submit</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
